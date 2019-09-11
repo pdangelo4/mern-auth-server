@@ -1,6 +1,6 @@
 let router = require('express').Router()
 
-router.post('/login', req, res) => {
+router.post('/login', (req, res) => {
     res.send('STUB - POST /auth/login')
 })
 
